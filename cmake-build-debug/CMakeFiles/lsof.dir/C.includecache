@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fedya/code/Acronis/4year/FS/lsof/main.c
+stdio.h
+-
+dirent.h
+-
+sys/stat.h
+-
+sys/types.h
+-
+ctype.h
+-
+stdlib.h
+-
+errno.h
+-
+string.h
+-
+unistd.h
+-
+
